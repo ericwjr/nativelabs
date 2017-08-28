@@ -14,7 +14,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Questrial', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Questrial', sans-serif;
 }
 h2 {
   font-size: 30px;
@@ -97,7 +97,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: blue;
+  background: #171717;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -119,7 +119,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #E3E3E4;
 }
 #slider .block h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Questrial', sans-serif;
   font-weight: 100;
   font-size: 45px;
   line-height: 60px;
@@ -129,7 +129,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #slider .block p {
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Questrial', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
 }
