@@ -3,6 +3,9 @@
  * To find the original style.css that ships with Airspace, read airspace.css
  *
  */
+ body {
+   background:#F6F6F6;
+ }
 
  .italic {
    font-style: italic;

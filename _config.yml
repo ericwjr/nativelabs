@@ -14,13 +14,13 @@ keep_files:
 
 
 # Site settings
-title: Airspace
-subtitle: "A free HTML5 agency template"
+title: Native Lab
+subtitle: "Creating Familar experiences"
 url: "http://ericwjr.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+logo: "/assets/logo.svg"
 
 # Build settings
 markdown: kramdown
