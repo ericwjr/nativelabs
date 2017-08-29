@@ -24,6 +24,7 @@ h4,
 h5,
 h6 {
   font-family: 'Questrial', sans-serif;
+  color:#171717;
 }
 h2 {
   font-size: 30px;
@@ -96,15 +97,21 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider Start
 --*/
-#slider {
+.slider {
   background: #171717;
+  color:#F6F6F6 !important;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
   position: relative;
 }
-#slider:before {
+.below-tagline {
+  position: absolute !important;
+  margin-top: 27rem;
+  color:#F6F6F6;
+
+}
+.slider:before {
   content: "";
   position: absolute;
   left: 0;
@@ -115,23 +122,27 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 100%;
   opacity: 0.8;
 }
-#slider .block {
+.slider .block {
   color: #E3E3E4;
 }
-#slider .block h1 {
+.slider .block h1 {
   font-family: 'Questrial', sans-serif;
-  font-weight: 100;
+  font-weight: 800;
   font-size: 45px;
   line-height: 60px;
   letter-spacing: 10px;
   padding-bottom: 45px;
+  position: absolute;
+  margin-top: 21rem !important;
+  color: #F6F6F6;
 }
-#slider .block p {
+.slider .block p {
   font-size: 23px;
   line-height: 40px;
   font-family: 'Questrial', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+  color:#171717;
 }
 /*--
 	wrapper Start
