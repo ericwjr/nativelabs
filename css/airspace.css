@@ -25,6 +25,7 @@ h5,
 h6 {
   font-family: 'Questrial', sans-serif;
   color:#171717;
+  font-weight:800;
 }
 h2 {
   font-size: 30px;
@@ -65,6 +66,9 @@ a:active {
 /*--
 	Header Start
 --*/
+
+
+
 header {
   background: #fff;
   padding: 20px 0;
@@ -87,6 +91,7 @@ header .navbar-default .navbar-nav li a {
   color: #333333;
   padding: 10px 26px;
   font-size: 15px;
+  font-weight: 700;
 }
 font header .navbar-default .navbar-nav li a:hover {
   color: #000;
@@ -98,17 +103,31 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 .slider {
-  background: #171717;
   color:#F6F6F6 !important;
   background-size: cover;
   background-attachment: fixed;
+  background-image: url('../https://s3.us-east-2.amazonaws.com/blakejackovit.ch/Stars+in+the+Universe++4K+Relaxing+Screensaver.mp4') no-repeat;
   background-position: 10% 0%;
+  background-color:rgba(23,23,23,1);
   position: relative;
+  height:80rem;
 }
+span {
+  background:blue;
+  color:#ffffff;
+}
+.full-feature-container{
+@media (min-width: 1200px)
+bootstrap.min.css:5
+.container {
+    width: 100% !important;
+}}
 .below-tagline {
   position: absolute !important;
-  margin-top: 27rem;
+  margin-top: 42rem;
   color:#F6F6F6;
+  line-height: 2rem;
+  font-weight: 600;
 
 }
 .slider:before {
@@ -127,14 +146,15 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 .slider .block h1 {
   font-family: 'Questrial', sans-serif;
-  font-weight: 800;
-  font-size: 45px;
-  line-height: 60px;
-  letter-spacing: 10px;
-  padding-bottom: 45px;
-  position: absolute;
-  margin-top: 21rem !important;
-  color: #F6F6F6;
+      font-weight: 800;
+      font-size: 45px;
+      line-height: 75px;
+      letter-spacing: 3px;
+      /* padding-bottom: 45px; */
+      position: absolute;
+      margin-top: 16rem !important;
+      color: #F6F6F6;
+
 }
 .slider .block p {
   font-size: 23px;
