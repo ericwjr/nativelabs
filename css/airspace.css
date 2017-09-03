@@ -14,7 +14,7 @@
 	Common Css
 --*/
 body {
-  font-family: 'Questrial', sans-serif;
+  font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
 }
 h1,
@@ -23,9 +23,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Questrial', sans-serif;
-  color:#171717;
-  font-weight:800;
+  font-family: 'Playfair Display', sans-serif !important;
+  font-weight:initial;
+  font-family: Giza, sans-serif;
+font-size: 58.1875px;
+font-style: normal;
+font-weight: 300;
+letter-spacing: 23.275px;
+line-height: 58.1875px;
+text-transform: uppercase;
+color:#171717;
+
 }
 h2 {
   font-size: 30px;
@@ -70,7 +78,7 @@ a:active {
 
 
 header {
-  background: #fff;
+  background:#F6F6F6;
   padding: 20px 0;
 }
 header .navbar {
@@ -102,14 +110,16 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider Start
 --*/
+.post-feature-slide{
+  margin-top:12rem;
+}
 .slider {
-  color:#F6F6F6 !important;
   background-size: cover;
   background-attachment: fixed;
-  background-image: url('../https://s3.us-east-2.amazonaws.com/blakejackovit.ch/Stars+in+the+Universe++4K+Relaxing+Screensaver.mp4') no-repeat;
   background-position: 10% 0%;
-  background-color:rgba(23,23,23,1);
-  height:100%;;
+  padding: 325px 0 280px 0;
+  position: relative;
+  background:#F6F6F6;
 }
 span {
   background:blue;
@@ -122,8 +132,6 @@ bootstrap.min.css:5
     width: 100% !important;
 }}
 .below-tagline {
-  position: absolute !important;
-  margin-top: 42rem;
   color:#F6F6F6;
   line-height: 2rem;
   font-weight: 600;
@@ -143,17 +151,13 @@ bootstrap.min.css:5
 .slider .block {
   color: #E3E3E4;
 }
-.slider .block h1 {
-  font-family: 'Questrial', sans-serif;
-      font-weight: 800;
-      font-size: 45px;
-      line-height: 75px;
-      letter-spacing: 3px;
-      /* padding-bottom: 45px; */
-      position: absolute;
-      margin-top: 16rem !important;
-      color: #F6F6F6;
-
+#slider .block h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 10px;
+  padding-bottom: 45px;
 }
 .slider .block p {
   font-size: 23px;
